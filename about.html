@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amirty University | About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/sunrise-book-logo-vector-icon-213107016-removebg.png" alt="Logo">
+                <h5 class="logo-name">AMIRTY UNIVERSITY</h5>
+            </a>
+            <div class="nav-links" id="nav-Links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html" class="active">ABOUT<div class="active-underline"><span></span></div></a>
+                    </li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- About-Us-Content -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The Largest University</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem molestias atque incidunt, neque
+                    in dolorum aliquam aliquid ipsa. Magni aut alias, aperiam adipisci at molestias. Laboriosam voluptas
+                    aliquid similique qui quos natus vel nulla inventore? Quam blanditiis officia at incidunt nobis,
+                    doloremque ex aliquid illum vitae eligendi magni sapiente aperiam?</p>
+                <a href="#" class="btn-1 blue-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="/campaign-creators-gMsnXqILjp4-unsplash.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <footer>
+            <div class="f-row">
+                <div class="f-col">
+                    <a href="index.html"><img class="f-logo"
+                            src="/sunrise-book-logo-vector-icon-213107016-removebg.png">
+                        <h2>Amirty University</h2>
+                    </a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis esse, perspiciatis, eos,
+                        perferendis quo mollitia officiis tenetur laboriosam illo ratione cum adipisci reiciendis! Esse,
+                        unde!</p>
+                </div>
+                <div class="f-col office">
+                    <h3>Office<div class="underline"><span></span></div>
+                    </h3>
+                    <p><i class="fa fa-map-marker"></i><a href="https://goo.gl/maps/5EUSbnr6bMWMqirF7">Amirty Education
+                            Valley</p>
+                    <p class="p">Gurugram, Manesar</p>
+                    <p class="p">Haryana, India</a></p>
+                    <p><i class="fa fa-phone"></i><a href="tel:+911242331874">+91 1242331874</a></p>
+                    <p><i class="fa fa-envelope"></i><a
+                            href="mailto:info@amirty.university.com">info@amirty.university.com</a></p>
+                </div>
+                <div class="f-col">
+                    <h3>Links<div class="underline"><span></span></div>
+                    </h3>
+                    <ul class="links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="f-col">
+                    <h3>Newsletter<div class="underline"><span></span></div>
+                    </h3>
+                    <form action="">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit"><i class="fa fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Amirty University &copy; 2021 - All Rights Reserved</p>
+        </footer>
+    </section>
+    <!-- JavaScript For Toggle Menu Bar -->
+    <script>
+        var navLinks = document.getElementById("nav-Links");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
