@@ -32,7 +32,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/ethan-shi-h0SCuYQc1NY-unsplash.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(/img/ethan-shi-h0SCuYQc1NY-unsplash.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -393,7 +393,7 @@ h3{
 .contact{
     margin: 100px auto;
     width: 80%;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size:contain;
@@ -598,7 +598,7 @@ hr{
 .sub-header{
     height: 50vh;
     width: 100%;
-     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/ethan-shi-h0SCuYQc1NY-unsplash.jpg);
+     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/img/ethan-shi-h0SCuYQc1NY-unsplash.jpg);
      background-position: center;
      background-size: cover;
      text-align: center;
