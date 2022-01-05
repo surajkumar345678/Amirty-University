@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div class="contact-col">
-                    <form onsubmit="sendEmail(); reset(); return false;">
+                    <form>
                         <input type="text" name="name" id="name" placeholder="Enter your name" required>
                         <input name="email" type="email" id="email" placeholder="Enter email address" required>
                         <input name="subject" type="text" id="subject" placeholder="Enter your subject" required>
@@ -142,6 +142,7 @@
                 <p class="copyright">Amirty University &copy; 2021 - All Rights Reserved</p>
             </footer>
         </section>
+    </body>
         <!-- JavaScript For Toggle Menu Bar -->
         <script>
             var navLinks = document.getElementById("nav-Links");
@@ -152,25 +153,4 @@
                 navLinks.style.right = "-200px";
             }
         </script>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script>
-            function sendEmail() {
-                Email.send({
-                    Host: "smtp.gmail.com",
-                    Username: "kumarsuraj345678@gmail.com",
-                    Password: "Ks_hpvictus2021@",
-                    To: 'skumar661874@gmail.com',
-                    From: document.getElementById("email").value,
-                    Subject: document.getElementById("subject").value,
-                    Body: "Name: " + document.getElementById("name").value
-                        + "<br> Email: " + document.getElementById("email").value
-                        + "<br> Subject: " + document.getElementById("subject").value
-                        + "<br> Query: " + document.getElementById("query").value
-                }).then(
-                    message => alert("Query Sent Succesfully")
-                );
-            }
-        </script>
-    </body>
-
 </html>
