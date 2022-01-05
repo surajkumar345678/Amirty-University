@@ -73,12 +73,15 @@
                     </div>
                 </div>
                 <div class="contact-col">
-                    <form>
+                    <form action="POST" data-netlify="true">
                         <input type="text" name="name" id="name" placeholder="Enter your name" required>
                         <input name="email" type="email" id="email" placeholder="Enter email address" required>
                         <input name="subject" type="text" id="subject" placeholder="Enter your subject" required>
                         <textarea name="query" id="query" cols="20" rows="5" placeholder="Enter your query"
                             required></textarea>
+                        <div class="field">
+                            <div data-netlify-recaptcha="true"></div>
+                        </div>
                         <button type="submit" style="margin: 10px;" class="btn-1 blue-btn">Send Query</button><button
                             type="reset" style="margin: 10px;" class="btn-1 blue-btn">Clear</button>
                     </form>
