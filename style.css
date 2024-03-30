@@ -119,17 +119,19 @@ nav{
     color: white;
     border: 1px solid white;
     border-radius: 10px;
-    font-size: 12px;
-    padding: 12px 30px;
+    font-size: 18px;
+    padding: 12px 50px;
+    font-weight: bold;
+    margin: 0 10px;
     background: transparent;
     position: relative;
     cursor: pointer;
-    transition: 0.9s;
+    transition: 0.4s;
 }
 .btn-1:hover{
     border: 1px solid rgb(28,58,148);
     background: rgb(28,58,148);
-    transform:scale(1.2);
+    transform:scale(1.1);
     
 }
 nav .fa{
