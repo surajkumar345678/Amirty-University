@@ -12,7 +12,7 @@ This repository contains the source code for the Amirty University website. The 
 
 ### Screenshots:
 *Home Page:*
-![Screenshot (40)](https://github.com/surajkumar345678/Amirty-University/assets/60316890/6d290fd5-dfec-49b2-bd86-fdeb391a75ea)
+![Screenshot (62)](https://github.com/surajkumar345678/Amirty-University/assets/60316890/c203a7d9-772b-4e4d-99d8-9043884f9fbc)
 
 *About Page:*
 ![Screenshot (41)](https://github.com/surajkumar345678/Amirty-University/assets/60316890/c26cb685-ca69-4f73-85d4-c2ceb845dce2)
